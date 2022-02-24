@@ -1,0 +1,218 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 100%;
+}
+nav{
+	text-align: center;
+	font-family: arial;
+	font-size: 16;
+	color: #fff;
+	background-color: #006400;
+	height: 20px;
+}
+
+footer{
+	background-color: #2E8B57;
+	font-family: arial;
+	font-size: 10;
+	text-align: left;
+	color: #fff;
+	height: 113px;
+}
+h1{
+	font-size: 30px;
+	font-family: cursive;
+	color: #32CD32;
+	text-shadow: 2px 2px 2px #000;
+	text-align: center;
+}
+h2{
+
+	font-size: 18px;
+	text-align: center;
+	font-family: cursive;
+	color: #228B22;
+}
+h2:hover{
+
+	font-size: 20px;
+	text-align: center;
+	font-family: cursive;
+	color: #228B22;
+}
+h3{
+
+	font-size: 16px;
+	font-family: cursive;
+	color: #32CD32;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+
+}
+
+a:link, a:visited, a:active{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16;
+}
+a.referencias:hover{
+	text-decoration: none;
+	color: #00FF00;
+	font-size: 17px;
+}
+
+h4{
+
+	font-size: 20px;
+	font-family: cursive;
+	color: #32CD32;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+
+}
+hr.pequeno{
+	width: 10%;
+	height: 1px;
+	background-color: #00FF7F;
+}
+hr.grande{
+	width: 40%;
+	height: 1px;
+	background-color: #32CD32;
+}
+hr {
+	width: 25%;
+	height: 1px;
+	background-color: #00FF7F;
+}
+.foto{
+	text-align: center;
+	border-radius: 50%;
+}
+.foto:hover{
+	text-align: center;
+	border-radius: 50%;
+}
+img.imagem{
+	text-align: center;
+	border-radius: 50%;
+}
+.texto{
+	font-size: 16px;
+	font-family: arial;
+	text-align: justify;
+	color: #000;
+	padding: 2%
+}
+.logo{
+	text-align: center;
+}
+.titulo{
+	text-align: center;
+}
+.rodape{
+
+	font-family: cursive;
+	font-size: 10;
+	text-align: center;
+	color: #2F4F4F;
+}
+
+.logo1{
+	text-align: left;
+}
+.esquerda{
+
+	text-align: center;
+}
+.direita{
+	text-align: center;
+}
+.redes{
+	text-align: right;
+
+}
+#img1{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#grade4{
+	background-color:#2E8B57;
+	display: grid;
+	grid-template-areas:"logo rodape";
+}
+#grade5{
+	display: grid;
+	grid-template-areas:"logo rodape";
+}
+#topo{
+	background-color:#2E8B57;
+	height: 127px;
+	display: grid;
+	grid-tamplate-areas:"logo1 redes";
+}
+#video{
+	text-align: center;
+}
+.referencias{
+	text-decoration: none;
+	text-align: center;
+	font-family: arial;
+	font-size: 15;
+	color: #fff;
+}
+
+#conteudo1{
+	display: grid;
+	grid-template-areas:"esquerda direita";
+}
+#conteudo2{
+	display: grid;
+	grid-template-areas:"esquerda direita";
+}
+#conteudo3{
+	display: grid;
+	grid-template-areas:"esquerda direita";
+}
+
+#aluno1{
+	display: grid;
+	grid-tamplete-areas:"foto nome";
+}
+#aluno2{
+	display: grid;
+	grid-tamplete-areas:"foto nome";
+}
+#aluno3{
+	display: grid;
+	grid-tamplete-areas:"foto nome";
+}
+#aluno4{
+	display: grid;
+	grid-tamplete-areas:"foto nome";
+}
+#aluno5{
+	display: grid;
+	grid-tamplete-areas:"foto nome";
+}
+
+#pag{
+	display: grid;
+	grid-tamplete-column:"alunos professores";
+}
+.alunos{
+
+}
+.professores{
+	text-align: right;
+
+}

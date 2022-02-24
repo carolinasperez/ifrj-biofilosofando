@@ -1,0 +1,232 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 100%;
+}
+nav{
+	text-align: center;
+	font-family: arial;
+	font-size: 16;
+	color: #fff;
+	background-color: #006400;
+	height: 20px;
+}
+
+footer{
+	background-color: #2E8B57;
+	font-family: arial;
+	font-size: 10;
+	text-align: left;
+	color: #fff;
+	height: 113px;
+}
+
+h1{
+	font-size: 30px;
+	font-family: cursive;
+	color: #32CD32;
+	text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+	text-align: center;
+}
+h2{
+
+	font-size: 20px;
+	font-family: cursive;
+	color: #228B22;
+}
+h3{
+
+	font-size: 14px;
+	font-family: cursive;
+	color: #333;
+	text-align: center;
+
+}
+h4{
+
+	font-size: 16px;
+	font-family: cursive;
+	color: #333;
+	text-align: center;
+
+}
+
+hr.pequeno{
+	width: 25%;
+	height: 1px;
+	background-color: #00FF7F;
+}
+hr.grande{
+	width: 50%;
+	height: 1px;
+	background-color: #32CD32;
+}
+hr {
+	width: 40%;
+	height: 1px;
+	background-color: #00FF7F;
+}
+
+
+a:link, a:visited, a:active{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16;
+}
+a.referencias:hover{
+	text-decoration: none;
+	color: #00FF00;
+	font-size: 17px;
+}
+ul{
+	text-align: center;
+}
+li{
+	font-size: 16px;
+	font-family: arial;
+	color: #000;
+	text-align: left;
+}
+
+
+
+.texto{
+	font-size: 16px;
+	font-family: arial;
+	text-align: justify;
+	color: #000;
+	padding: 2%
+}
+.logo{
+	text-align: center;
+}
+.titulo{
+	text-align: center;
+}
+.rodape{
+
+	font-family: cursive;
+	font-size: 10;
+	text-align: center;
+	color: #2F4F4F;
+}
+
+.logo1{
+	text-align: left;
+}
+.esquerda{
+
+	text-align: center;
+}
+.direita{
+
+	text-align: center;
+}
+.redes{
+	text-align: right;
+
+}
+
+
+.final{
+	text-align: center;
+	font-size: 16;
+	font-family: arial;
+}
+
+#img1{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#grade4{
+	background-color:#2E8B57;
+	display: grid;
+	grid-template-areas:"logo rodape";
+}
+#grade5{
+	display: grid;
+	grid-template-areas:"logo rodape";
+}
+#topo{
+	background-color:#2E8B57;
+	height: 127px;
+	display: grid;
+	grid-tamplate-areas:"logo1 redes";
+}
+#video{
+	text-align: center;
+}
+
+.referencias{
+	text-decoration: none;
+	text-align: center;
+	font-family: arial;
+	font-size: 15;
+	color: #fff;
+}
+
+
+#conteudo1{
+	padding-left: 5%;
+	display: grid;
+	grid-template-areas:"esquerda direita";
+}
+#conteudo2{
+	text-align: center;
+	display: grid;	
+	padding-right: 5%;
+	padding-left: 0;
+	grid-template-areas:"esquerda direita papa";
+}
+#conteudo3{
+	padding-left: 5%;
+	display: grid;
+	grid-template-areas:"esquerda direita";
+}
+#conteudo4{
+	text-align: center;
+	padding-right: 5%;
+	display: grid;
+	grid-template-areas:"esquerda direita";
+}
+#conteudo5{
+	padding-left: 5%;
+	display: grid;
+	grid-template-areas:"esquerda direita";
+}
+#conteudo6{
+	text-align: center;
+	padding-right: 5%;
+	display: grid;
+	grid-template-areas:"esquerda direita";
+}
+#conteudo7{
+	padding-left: 5%;
+	display: grid;
+	grid-template-areas:"esquerda direita";
+}
+#conteudo8{
+	text-align: center;
+	padding-right: 5%;
+	display: grid;
+	grid-template-areas:"esquerda direita";
+}
+#conteudo9	{
+	padding-left: 5%;
+	display: grid;
+	grid-template-areas:"esquerda direita";
+}
+
+#conteudo10{
+
+	display: grid;
+	grid-template-areas:"final direita";
+}
